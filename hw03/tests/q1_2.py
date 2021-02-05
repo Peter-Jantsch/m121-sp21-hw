@@ -1,22 +1,23 @@
 test = {
-  'name': 'q1_4',
+  'name': 'q1_2',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> # It looks like you subtracted in the wrong order.;
-          >>> round(pter.item(6), 4) != -1.1282
-          True
+          >>> by_nei.take(0)
+          Date       | NEI     | NEI-PTER
+          2009-10-01 | 10.9698 | 12.8557
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> round(pter.item(6), 4)
-          1.1282
+          >>> by_nei_pter.take(0)
+          Date       | NEI     | NEI-PTER
+          2009-10-01 | 10.9698 | 12.8557
           """,
           'hidden': False,
           'locked': False

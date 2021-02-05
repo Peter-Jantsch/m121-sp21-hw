@@ -1,13 +1,14 @@
 test = {
-  'name': 'q2_7',
+  'name': 'q1_3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(assoc) is bool
-          True
+          >>> greatest_nei.take(0)
+          Date       | NEI     | NEI-PTER
+          2009-10-01 | 10.9698 | 12.8557
           """,
           'hidden': False,
           'locked': False

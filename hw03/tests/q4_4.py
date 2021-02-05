@@ -1,12 +1,12 @@
 test = {
-  'name': 'q2_3',
+  'name': 'q4_4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> 5e5 < west_births < 1e6
+          >>> 1 <= boston_median_bin <= 4
           True
           """,
           'hidden': False,
